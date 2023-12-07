@@ -63,9 +63,12 @@ namespace Entidades.Serializacion
             {
                 string path = Path.Combine(FileManager.path, nombreArchivo);
 
+
                 using (StreamWriter writer = new StreamWriter(path, append))
                 {
+
                     writer.WriteLine(data);
+
                 }
             }
             catch (Exception ex)
