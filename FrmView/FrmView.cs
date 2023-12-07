@@ -72,8 +72,9 @@ namespace FrmView
             if (this.comida is not null)
             {
                 comida.FinalizarPreparacion(this.hamburguesero.Nombre);
-                this.rchFinalizados.Text += "\n" + comida.Ticket;
-                
+
+                this.rchFinalizados.Text += $"\n + comida.Ticket";
+                this.comida = null;
             }
             else
             {
