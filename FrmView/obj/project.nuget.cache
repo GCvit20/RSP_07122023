@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K+eq26u3eRxDqUsCVYtmTBVLKcyaNJtoVofyqh8j1G5Jm7UVB9FlZdwIS5b90iWpdt9DmcX8UTQtURdL/opjpQ==",
+  "dgSpecHash": "zSjaz0QCy49ydSIYt+PhPgXgeX+fuo5id/vXlhqjpfpItsp45z4p7w/qovfdf6INNgggX4+p7VJn1D9MDoi32Q==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\FrmView\\FrmView.csproj",
+  "projectFilePath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\FrmView\\FrmView.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\54332\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\54332\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

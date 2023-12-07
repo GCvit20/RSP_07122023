@@ -39,7 +39,7 @@ namespace Entidades.MetodosDeExtension
         /// <returns>Lista de ingredisentes</returns>
         public static List<EIngrediente> IngredientesAleatorios(this Random rand)
         {
-            List<EIngrediente> ingredientesDisponibles = new List<EIngrediente>
+            List<EIngrediente> ingredientes = new List<EIngrediente>()
             {
                 EIngrediente.QUESO,
                 EIngrediente.PANCETA,
@@ -49,10 +49,11 @@ namespace Entidades.MetodosDeExtension
             };
 
             // Genera un número aleatorio entre 1 y el tamaño de la lista + 1
-            int cantidadAleatoria = rand.Next(1, ingredientesDisponibles.Count + 1);
+            int numeroAleatorio = rand.Next(1, ingredientes.Count + 1);
 
             // Retorna una lista de ingredientes aleatorios en base al número obtenido aleatoriamente
-            return ingredientesDisponibles.Take(cantidadAleatoria).ToList();
+
+            return ingredientes.Take(numeroAleatorio).ToList();
 
         }
 

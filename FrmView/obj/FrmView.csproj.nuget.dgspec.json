@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\FrmView\\FrmView.csproj": {}
+    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\FrmView\\FrmView.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\Entidades\\Entidades.csproj": {
+    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\54332\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\Entidades\\obj\\",
+        "outputPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\54332\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\FrmView\\FrmView.csproj": {
+    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\FrmView\\FrmView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\FrmView\\FrmView.csproj",
+        "projectUniqueName": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\FrmView\\FrmView.csproj",
         "projectName": "FrmView",
-        "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\FrmView\\FrmView.csproj",
+        "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\FrmView\\FrmView.csproj",
         "packagesPath": "C:\\Users\\54332\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\FrmView\\obj\\",
+        "outputPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\FrmView\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\54332\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\Entidades\\Entidades.csproj"
+              "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj"
               }
             }
           }

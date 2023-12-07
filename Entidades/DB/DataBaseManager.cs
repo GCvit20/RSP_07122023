@@ -29,32 +29,32 @@ namespace Entidades.DataBase
         {
             try
             {
-                using (connection = new SqlConnection(DataBaseManager.stringConnection))
+                using (DataBaseManager.connection = new SqlConnection(DataBaseManager.stringConnection))
                 {
-                    string consulta = "SELECT imagen FROM comidas WHERE tipo_comida = @tipo_comida";
+                    string consulta = "SELECT * FROM comidas WHERE tipo_comida = @tipo_comida";
 
-                    SqlCommand command = new SqlCommand(consulta, connection);
+                    SqlCommand command = new SqlCommand(consulta, DataBaseManager.connection);
                     command.Parameters.AddWithValue("@tipo_comida", tipo);
 
-                    connection.Open();
+                    DataBaseManager.connection.Open();
 
-                    using (SqlDataReader reader = command.ExecuteReader())
+                    SqlDataReader reader = command.ExecuteReader();
+                    
+                    if (reader.Read())
                     {
-                        if (reader.Read())
-                        {
-                            return reader.GetString(0);
-                        }
-                        else
-                        {
-                            throw new ComidaInvalidaExeption($"Tipo de comida '{tipo}' no encontrado.");
-                        }
+                        return reader.GetString(2);
                     }
+                    else
+                    {
+                        throw new ComidaInvalidaExeption($"Tipo de comida '{tipo}' no encontrado.");
+                    }
+                    
                 }
             }
             catch (Exception ex)
             {
                 FileManager.Guardar(ex.Message, "Errores.txt", true);
-                throw new DataBaseManagerException("Error al intentar conectar en la DB o en realizar la consulta solicitada"); ; // Lanza la excepción para que pueda ser manejada en el código que llama a este método
+                throw new DataBaseManagerException("Error al leer la base de dato");
             }
         }
 
@@ -67,17 +67,19 @@ namespace Entidades.DataBase
         /// <returns>Retornara true si la cantidad de columnas afectadas es mayor a 0. De lo contrario retorna false</returns>
         public static bool GuardarTicket<T>(string nombreEmpleado, T comida) where T : IComestible, new()
         {
-            string query = "INSERT INTO tickets (empleado, ticket) VALUES (@empleado, @ticket)";
 
             try
             {
-                using (SqlCommand command = new SqlCommand(query, DataBaseManager.connection))
+                using (DataBaseManager.connection = new SqlConnection(DataBaseManager.stringConnection))
                 {
-                    connection.Open();
+                    string consulta = "INSERT INTO tickets (empleado, ticket) VALUES (@empleado, @ticket)";
 
+                    SqlCommand command = new SqlCommand(consulta, DataBaseManager.connection);
 
                     command.Parameters.AddWithValue("@empleado", nombreEmpleado);
-                    command.Parameters.AddWithValue("@ticket", comida.ToString()); 
+                    command.Parameters.AddWithValue("@ticket", comida.ToString());
+
+                    DataBaseManager.connection.Open();
 
                     int columnasAfectadas = command.ExecuteNonQuery();
 

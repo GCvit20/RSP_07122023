@@ -26,12 +26,16 @@ namespace FrmView
         //en el formulario los datos de la comida
         private void MostrarComida(IComestible comida)
         {
-
-            this.comidas.Enqueue(comida);
-            //this.pcbComida.Load(comida.Imagen);
-            this.pcbComida.ImageLocation = comida.Imagen;
-            this.rchElaborando.Text = comida.ToString();
-
+            if (this.InvokeRequired)
+            {
+                this.BeginInvoke(() => MostrarComida(comida));
+            }
+            else
+            {
+                this.comidas.Enqueue(comida);
+                this.pcbComida.Load(comida.Imagen);
+                this.rchElaborando.Text = comida.ToString();
+            }
         }
 
 
@@ -40,13 +44,16 @@ namespace FrmView
         //en el fomrulario el tiempo transucurrido
         private void MostrarConteo(double tiempo)
         {
+            if (this.InvokeRequired)
+            {
+                this.BeginInvoke(() => MostrarConteo(tiempo));
+            }
+            else
+            {
+                this.lblTiempo.Text = $"{tiempo} segundos";
+                this.lblTmp.Text = $"{this.hamburguesero.TiempoMedioDePreparacion.ToString("00.0")} segundos";
 
-
-            this.lblTiempo.Text = $"{tiempo} segundos";
-            this.lblTmp.Text = $"{this.hamburguesero.TiempoMedioDePreparacion.ToString("00.0")} segundos";
-
-
-
+            }
         }
 
         private void ActualizarAtendidos(IComestible comida)
@@ -71,6 +78,7 @@ namespace FrmView
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
+
             if (this.comidas.Count > 0)
             {
 
@@ -88,9 +96,25 @@ namespace FrmView
         private void FrmView_FormClosing(object sender, FormClosingEventArgs e)
         {
             //Alumno: Serializar el cocinero antes de cerrar el formulario
-            FileManager.Serializar(hamburguesero, "Comida");
+            try
+            {
+                FileManager.Serializar(this.hamburguesero, "Cocinero.json");
+            }
+            catch (FileManagerException ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                FileManager.Guardar(ex.Message, "Errores.txt", true);
+            }
+        }
 
-            //this.cancelation.Cancel();
+        private void FrmView_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTmp_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

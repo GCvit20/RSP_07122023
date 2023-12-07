@@ -99,6 +99,7 @@
             lblTmp.Size = new Size(286, 32);
             lblTmp.TabIndex = 9;
             lblTmp.Text = "tiempo medio de atencion";
+            lblTmp.Click += lblTmp_Click;
             // 
             // lblTitleTmp
             // 
@@ -194,6 +195,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cocinero";
             FormClosing += FrmView_FormClosing;
+            Load += FrmView_Load;
             ((System.ComponentModel.ISupportInitialize)pcbComida).EndInit();
             ResumeLayout(false);
             PerformLayout();

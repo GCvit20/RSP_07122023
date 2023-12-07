@@ -23,9 +23,9 @@ namespace Entidades.Files
             
             string rutaEscritorio = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-            path = Path.Combine(rutaEscritorio, "20231207_Alumn");
+            FileManager.path = Path.Combine(rutaEscritorio, "20231207_Gaston.Cvitanich.C");
 
-            ValidarExitenciaDeDirectorio();
+            FileManager.ValidarExitenciaDeDirectorio();
         }
 
         /// <summary>
@@ -34,11 +34,13 @@ namespace Entidades.Files
         /// <exception cref="FileManagerException">En el caso de que no se pueda crear el directorio, lanza una excepcion</exception>
         private static void ValidarExitenciaDeDirectorio()
         {
-            if (!Directory.Exists(path))
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+            if (!Directory.Exists(FileManager.path))
             {
                 try
                 {
-                    Directory.CreateDirectory(path);
+                    Directory.CreateDirectory(FileManager.path);
                 }
                 catch(Exception ex)
                 {
@@ -57,9 +59,9 @@ namespace Entidades.Files
         /// <param name="append">Recibe un booleano en caso de que se quiera sobreescribir el archivo o no</param>
         public static void Guardar(string data, string nombreArchivo, bool append)
         {
-            string filePath = Path.Combine(path, nombreArchivo);
+            string path = Path.Combine(FileManager.path, nombreArchivo);
 
-            using (StreamWriter writer = new StreamWriter(filePath, append))
+            using (StreamWriter writer = new StreamWriter(path, append))
             {
                 writer.WriteLine(data);
             }
@@ -74,12 +76,14 @@ namespace Entidades.Files
         /// <returns>Retorna true si la operacion se realizo con exito de lo contrario retorna false</returns>
         public static bool Serializar<T>(T elemento, string nombreArchivo) where T : class
         {
-            string filePath = Path.Combine(path, nombreArchivo);
+            string path = Path.Combine(FileManager.path, nombreArchivo);
 
             try
-            {
-                string json = JsonConvert.SerializeObject(elemento, Newtonsoft.Json.Formatting.Indented);
-                File.WriteAllText(filePath, json);
+            {         
+                //string json = JsonConvert.SerializeObject(elemento, Newtonsoft.Json.Formatting.Indented);
+                //File.WriteAllText(FileManager.path, json);
+
+                FileManager.Guardar(System.Text.Json.JsonSerializer.Serialize(elemento, typeof(T)), nombreArchivo, false);
 
                 return true;
             }

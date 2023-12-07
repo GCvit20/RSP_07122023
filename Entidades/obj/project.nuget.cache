@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w39uWuczZXyn3Qxmyj8t3Ne0OFFCvgSNLk8cz1bF2Nu5m8FKbE6CwhmY0d6UsP9rs69U74G5fNAexaWYHbVW4w==",
+  "dgSpecHash": "fJDq/9Jvy5iHU2XjwmAPY2G7JAE6CdQA2qtfHaJOh7yh13LStH3Nq35QuU4osopSJtf0Q8iW6yPTVXbDFcGU3A==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\54332\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\54332\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

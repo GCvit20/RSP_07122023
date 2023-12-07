@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GAoNFSO3dlSbS6nbsCPigTKjhq82Se5D/j4PsqfjNFxrVxZ3gvR/9IDzQU64DzAGjReNRL+hchzsKrbyCvQrjQ==",
+  "dgSpecHash": "1G0b90KVnH7QrFh1oDyV67Oh3F8yUCJHDQVq2VNJonaP5/06IRAogR/ddKOzC4zYPcEJx9xGIU5PYxwDwu0jvA==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_ALUMNO\\MisTest\\MisTest.csproj",
+  "projectFilePath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\MisTest\\MisTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\54332\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\54332\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

@@ -22,3 +22,15 @@ C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Ent
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.pdb
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\obj\Debug\net6.0\ref\Entidades.dll

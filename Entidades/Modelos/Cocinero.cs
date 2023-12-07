@@ -58,16 +58,17 @@ namespace Entidades.Modelos
         /// </summary>
         private void IniciarIngreso()
         {
+
             Task tarea = Task.Run(() => 
             {
                 if (!this.cancellation.IsCancellationRequested)
                 {
-                    NotificarNuevoIngreso();
-                    EsperarProximoIngreso();
-                    this.cantPedidosFinalizados += 1;
-                    DataBaseManager.GuardarTicket(this.Nombre, this.menu);
+                    this.NotificarNuevoIngreso();
+                    this.EsperarProximoIngreso();
+                    this.cantPedidosFinalizados++;
+                    DataBaseManager.GuardarTicket(this.nombre, this.menu);
                 }  
-            });
+            }, this.cancellation.Token);
         }
 
         /// <summary>
@@ -76,7 +77,7 @@ namespace Entidades.Modelos
 
         private void NotificarNuevoIngreso()
         {
-            if (OnIngreso != null)
+            if (this.OnIngreso is not null)
             {
                 this.menu = new T();
                 this.menu.IniciarPreparacion();
@@ -91,12 +92,11 @@ namespace Entidades.Modelos
         {
             int tiempoEspera = 0;
 
-            // Utilizar un bucle para esperar hasta que se cancele o el estado del pedido sea true
-            while (!this.cancellation.IsCancellationRequested && !this.menu.Estado)
+            while (this.cancellation.IsCancellationRequested && !this.menu.Estado && this.OnDemora is not null)
             {
-                Thread.Sleep(1000);
-
                 tiempoEspera++;
+                this.OnDemora.Invoke(tiempoEspera);
+                Thread.Sleep(1000);
             }
 
             this.demoraPreparacionTotal += tiempoEspera;

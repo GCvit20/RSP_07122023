@@ -23,7 +23,7 @@ namespace Entidades.Modelos
 
         public bool Estado { get => this.estado; }
         public string Imagen { get => this.imagen; }
-        public string Ticket => $"{this}\nTotal a pagar:{this.costo}";
+        public string Ticket => $"{this}\nTotal a pagar: ${this.costo}";
 
 
         public Hamburguesa() : this(false) { }
@@ -31,17 +31,16 @@ namespace Entidades.Modelos
         {
             this.esDoble = esDoble;
             this.random = new Random();
+            this.ingredientes = new List<EIngrediente>();
         }
 
         /// <summary>
-        /// Este meotdo agrega los ingredientes de forma aleatoria 
+        /// Este meotdo agrega los ingredientes de forma aleatoria.
         /// </summary>
 
         private void AgregarIngredientes()
-        {
-            Random rand = new Random();
-            
-            List<EIngrediente> ingredientesAleatorios = rand.IngredientesAleatorios();
+        {          
+            this.ingredientes = this.random.IngredientesAleatorios();
         }
 
         /// <summary>
@@ -62,24 +61,29 @@ namespace Entidades.Modelos
 
         public override string ToString() => this.MostrarDatos();
 
-        
+        /// <summary>
+        /// Finaliza la preparación del objeto, calcula el costo total de los ingredientes y cambia el estado del objeto.
+        /// </summary>
+        /// <param name="cocinero">El nombre del cocinero responsable de la preparación.</param>
         public void FinalizarPreparacion(string cocinero)
         {
-            this.costo =  IngredientesExtension.CalcularCostoIngredientes(this.ingredientes, Hamburguesa.costoBase);
-            this.estado = false;
+            this.costo = this.ingredientes.CalcularCostoIngredientes(Hamburguesa.costoBase);
+            this.estado = !this.Estado;
         }
 
-
+        /// <summary>
+        /// Inicia la preparación de la comida si no ha sido iniciada previamente.
+        /// Genera un número aleatorio para seleccionar una imagen de hamburguesa.
+        /// Obtiene la imagen correspondiente de la base de datos.
+        /// Agrega los ingredientes necesarios a la preparación.
+        /// </summary>
         public void IniciarPreparacion()
         {
             if (!this.estado)
             {
-                Random random = new Random();
-                int numeroRandom = random.Next(1,9);
-
-                string img = DataBaseManager.GetImagenComida($"Hamburguesa_{numeroRandom}");
-
-                AgregarIngredientes();
+                int numeroRandom = this.random.Next(1,9);
+                this.imagen = DataBaseManager.GetImagenComida($"Hamburguesa_{numeroRandom}");
+                this.AgregarIngredientes();
             }
         }
     }
