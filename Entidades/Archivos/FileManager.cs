@@ -88,7 +88,7 @@ namespace Entidades.Serializacion
         {
             try
             {
-                FileManager.Guardar(System.Text.Json.JsonSerializer.Serialize(elemento, typeof(T)), nombreArchivo, true);
+                FileManager.Guardar(System.Text.Json.JsonSerializer.Serialize(elemento, typeof(T)), nombreArchivo, false);
 
                 return true;
             }

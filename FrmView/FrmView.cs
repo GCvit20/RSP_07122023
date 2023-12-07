@@ -94,7 +94,7 @@ namespace FrmView
             }
             catch (FileManagerException ex)
             {
-                FileManager.Guardar(ex.Message, "Logs.txt", false);
+                FileManager.Guardar(ex.Message, "Logs.txt", true);
             }
         }
 
