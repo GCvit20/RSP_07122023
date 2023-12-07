@@ -10,18 +10,30 @@ E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_2206202
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.pdb
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.deps.json
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\bin\Debug\net6.0\Entidades.pdb
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.pdb
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\Entidades\obj\Debug\net6.0\ref\Entidades.dll
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\bin\Debug\net6.0\Entidades.deps.json
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\bin\Debug\net6.0\Entidades.dll
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\Entidades\bin\Debug\net6.0\Entidades.pdb

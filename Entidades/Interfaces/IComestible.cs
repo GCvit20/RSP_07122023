@@ -1,13 +1,18 @@
 ﻿namespace Entidades.Interfaces
 {
+    /// <summary>
+    /// Interfaz que define las propiedades y métodos comunes para los objetos comestibles.
+    /// </summary>
     public interface IComestible
     {
-        public bool Estado { get; }
-        public string Imagen { get; }
-        public string Ticket { get; }
+        bool Estado { get; }
 
-        public void FinalizarPreparacion(string cocinero);
-        public void IniciarPreparacion();
+        string Imagen { get; }
 
+        string Ticket { get; }
+
+        void FinalizarPreparacion(string cocinero);
+
+        void IniciarPreparacion();
     }
 }

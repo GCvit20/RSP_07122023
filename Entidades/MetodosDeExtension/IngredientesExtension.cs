@@ -1,11 +1,13 @@
 ﻿using Entidades.Enumerados;
-
+using Entidades.Serializacion;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Entidades.MetodosDeExtension
 {
     public static class IngredientesExtension
     {
-
         /// <summary>
         /// Este metodo toma el costo inicial e incrementar su valor porcentualmente en base a los valores de la lista de Eingredientes. 
         /// </summary>
@@ -13,23 +15,20 @@ namespace Entidades.MetodosDeExtension
         /// <param name="costoInicial">Recibe un numero entero que representa el costo inicial</param>
         /// <returns>Retorna el costo total</returns>
         /// <exception cref="InvalidOperationException"></exception>
-        public static double CalcularCostoIngredientes(this List<EIngrediente> ingredientes, int costoInicial) 
+        public static double CalcularCostoIngredientes(this List<EIngrediente> ingredientes, int costoInicial)
         {
-            
-            if (ingredientes.Count == 0)
+            try
             {
+                ingredientes.ForEach(ingrediente => costoInicial += (costoInicial * (int)ingrediente / 100));
+
+                return costoInicial;
+            }
+            catch (Exception ex) 
+            {
+                FileManager.Guardar(ex.Message, "Logs.txt", true);
                 throw new InvalidOperationException("La lista de ingredientes está vacía.");
             }
 
-
-            double costoTotal = costoInicial;
-
-            foreach (EIngrediente ingrediente in ingredientes)
-            {
-                costoTotal += costoTotal * ((double)ingrediente / 100);
-            }
-
-            return costoTotal;
         }
 
         /// <summary>
@@ -48,14 +47,10 @@ namespace Entidades.MetodosDeExtension
                 EIngrediente.JAMON
             };
 
-            // Genera un número aleatorio entre 1 y el tamaño de la lista + 1
             int numeroAleatorio = rand.Next(1, ingredientes.Count + 1);
-
-            // Retorna una lista de ingredientes aleatorios en base al número obtenido aleatoriamente
 
             return ingredientes.Take(numeroAleatorio).ToList();
 
         }
-
     }
 }

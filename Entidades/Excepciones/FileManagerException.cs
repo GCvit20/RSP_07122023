@@ -4,8 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Entidades.Exceptions
 {
+    /// <summary>
+    /// Excepción lanzada cuando se produce un error durante la gestión de archivos.
+    /// </summary>
     public class FileManagerException : Exception
     {
         public FileManagerException(string? message) : base(message)
@@ -16,6 +20,4 @@ namespace Entidades.Exceptions
         {
         }
     }
-
-
 }

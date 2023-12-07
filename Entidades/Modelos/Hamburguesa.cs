@@ -1,17 +1,14 @@
 ﻿using Entidades.Enumerados;
 using Entidades.Exceptions;
-using Entidades.Files;
+using Entidades.Serializacion;
 using Entidades.Interfaces;
 using Entidades.MetodosDeExtension;
 using System.Text;
-using Entidades.DataBase;
-using System.Globalization;
 
 namespace Entidades.Modelos
 {
     public class Hamburguesa : IComestible
     {
-
         private static int costoBase;
         private bool esDoble;
         private double costo;
@@ -24,7 +21,6 @@ namespace Entidades.Modelos
         public bool Estado { get => this.estado; }
         public string Imagen { get => this.imagen; }
         public string Ticket => $"{this}\nTotal a pagar: ${this.costo}";
-
 
         public Hamburguesa() : this(false) { }
         public Hamburguesa(bool esDoble)
@@ -39,25 +35,25 @@ namespace Entidades.Modelos
         /// </summary>
 
         private void AgregarIngredientes()
-        {          
+        {
             this.ingredientes = this.random.IngredientesAleatorios();
         }
 
+
         /// <summary>
-        /// Este metodo mostrara los datos del pedido
+        /// Este metodo mostrara los datos del pedido.
         /// </summary>
-        /// <returns>Retorna un string con los datos</returns>
+        /// <returns>Retorna un string que representa los datos de la hamburguesa.</returns>
         private string MostrarDatos()
         {
             StringBuilder stringBuilder = new StringBuilder();
+
             stringBuilder.AppendLine($"Hamburguesa {(this.esDoble ? "Doble" : "Simple")}");
             stringBuilder.AppendLine("Ingredientes: ");
             this.ingredientes.ForEach(i => stringBuilder.AppendLine(i.ToString()));
+
             return stringBuilder.ToString();
-
         }
-
-
 
         public override string ToString() => this.MostrarDatos();
 
@@ -71,20 +67,28 @@ namespace Entidades.Modelos
             this.estado = !this.Estado;
         }
 
+
         /// <summary>
         /// Inicia la preparación de la comida si no ha sido iniciada previamente.
-        /// Genera un número aleatorio para seleccionar una imagen de hamburguesa.
-        /// Obtiene la imagen correspondiente de la base de datos.
-        /// Agrega los ingredientes necesarios a la preparación.
         /// </summary>
         public void IniciarPreparacion()
         {
             if (!this.estado)
             {
-                int numeroRandom = this.random.Next(1,9);
-                this.imagen = DataBaseManager.GetImagenComida($"Hamburguesa_{numeroRandom}");
-                this.AgregarIngredientes();
+                int indice = this.random.Next(1, 9);
+
+                try
+                {
+                    this.imagen = DataBaseManager.GetImagenComida($"Hamburguesa_{indice}");
+                    this.AgregarIngredientes();
+                }
+                catch (DataBaseManagerException ex)
+                {
+                    FileManager.Guardar(ex.Message, "Logs.txt", true);
+                    throw new DataBaseManagerException("No se pudo inicar la preparacion", ex);
+                }
             }
         }
+
     }
 }

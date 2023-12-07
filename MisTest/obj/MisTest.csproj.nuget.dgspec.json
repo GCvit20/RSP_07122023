@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\MisTest\\MisTest.csproj": {}
+    "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\MisTest.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj": {
+    "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\54332\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\obj\\",
+        "projectPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\54332\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,10 +44,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
@@ -65,21 +65,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\MisTest\\MisTest.csproj": {
+    "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\MisTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\MisTest\\MisTest.csproj",
+        "projectUniqueName": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\MisTest.csproj",
         "projectName": "MisTest",
-        "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\MisTest\\MisTest.csproj",
-        "packagesPath": "C:\\Users\\54332\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\MisTest\\obj\\",
+        "projectPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\MisTest.csproj",
+        "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\54332\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Workspace\\Programacion 2\\Recuperatorio segundo parcial\\SP_07122023_Gaston.Cvitanich.C\\Entidades\\Entidades.csproj"
+              "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj": {
+                "projectPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -142,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

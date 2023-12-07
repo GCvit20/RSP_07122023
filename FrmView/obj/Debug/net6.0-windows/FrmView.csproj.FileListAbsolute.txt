@@ -25,34 +25,62 @@ E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_2206202
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.exe
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\FrmView.pdb
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\Entidades.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\bin\Debug\net6.0-windows\Entidades.pdb
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.AssemblyReference.cache
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.FrmView.resources
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.Properties.Resources.resources
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.GenerateResource.cache
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.GeneratedMSBuildEditorConfig.editorconfig
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfoInputs.cache
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CopyComplete
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\refint\FrmView.dll
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
-C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_ALUMNO\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.exe
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.pdb
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\Entidades.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.AssemblyReference.cache
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.FrmView.resources
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.Properties.Resources.resources
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.GenerateResource.cache
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfoInputs.cache
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CopyComplete
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\refint\FrmView.dll
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
+C:\Users\Natan-YMM\Desktop\UTN\Segundo Cuatri (Ahora es personal)\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.exe
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\FrmView.pdb
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\Entidades.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.AssemblyReference.cache
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.FrmView.resources
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.Properties.Resources.resources
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.GenerateResource.cache
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfoInputs.cache
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CopyComplete
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\refint\FrmView.dll
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
+C:\Users\54332\Downloads\SP_07122023_IgnacioNatanaelNuñez\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\FrmView\bin\Debug\net6.0-windows\FrmView.exe
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
 C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json

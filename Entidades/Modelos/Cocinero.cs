@@ -1,21 +1,22 @@
-﻿using Entidades.DataBase;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using Entidades.Exceptions;
-using Entidades.Files;
 using Entidades.Interfaces;
-
+using Entidades.Serializacion;
 
 namespace Entidades.Modelos
 {
     public delegate void DelegadoDemoraAtencion(double demora);
     public delegate void DelegadoNuevoIngreso(IComestible menu);
-
     public class Cocinero<T> where T : IComestible, new()
     {
         private int cantPedidosFinalizados;
         private string nombre;
         private double demoraPreparacionTotal;
         private CancellationTokenSource cancellation;
-        private T menu; 
+        private T menu;
         private Task tarea;
         public event DelegadoNuevoIngreso OnIngreso;
         public event DelegadoDemoraAtencion OnDemora;
@@ -56,25 +57,35 @@ namespace Entidades.Modelos
         /// <summary>
         /// Este metodo inicia un ingreso notificando un nuevo ingreso, espera un proximo ingreso y guarda un ticket en la base de datos.
         /// </summary>
+        /// <exception cref="DataBaseManagerException">lanzara una excepcion en caso de que no pueda guardar el ticket en la base de datos</exception>
+
         private void IniciarIngreso()
         {
 
-            Task tarea = Task.Run(() => 
+            this.tarea = Task.Run(() =>
             {
-                if (!this.cancellation.IsCancellationRequested)
+                while (!this.cancellation.IsCancellationRequested)
                 {
                     this.NotificarNuevoIngreso();
                     this.EsperarProximoIngreso();
                     this.cantPedidosFinalizados++;
-                    DataBaseManager.GuardarTicket(this.nombre, this.menu);
-                }  
+
+                    try
+                    {
+                        DataBaseManager.GuardarTicket(this.Nombre, this.menu);
+                    }
+                    catch (DataBaseManagerException ex)
+                    {
+                        FileManager.Guardar(ex.Message, "Logs.txt", true);
+                        throw new DataBaseManagerException("Error al guardar el ticket en la Base de datos.", ex.InnerException);
+                    }
+                }
             }, this.cancellation.Token);
         }
 
         /// <summary>
-        /// Este metodo inciia la preparacion del menu y notifica el menu
+        /// Este metodo inciia la preparacion del menu y notifica el menu.
         /// </summary>
-
         private void NotificarNuevoIngreso()
         {
             if (this.OnIngreso is not null)
@@ -92,7 +103,7 @@ namespace Entidades.Modelos
         {
             int tiempoEspera = 0;
 
-            while (this.cancellation.IsCancellationRequested && !this.menu.Estado && this.OnDemora is not null)
+            while (this.OnDemora is not null && !this.menu.Estado && !this.cancellation.IsCancellationRequested)
             {
                 tiempoEspera++;
                 this.OnDemora.Invoke(tiempoEspera);
@@ -101,6 +112,5 @@ namespace Entidades.Modelos
 
             this.demoraPreparacionTotal += tiempoEspera;
         }
-
     }
 }
