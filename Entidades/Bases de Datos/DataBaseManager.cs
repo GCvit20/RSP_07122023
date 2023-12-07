@@ -16,7 +16,7 @@ public static class DataBaseManager
     /// </summary>
     static DataBaseManager()
     {
-        DataBaseManager.connectionString = "Server=DESKTOP-JJ7VCTI;Database=20230622SP;Trusted_Connection=True;";
+        DataBaseManager.connectionString = "Server=DESKTOP-JJ7VCTI;Database=20230622SP;Trusted_Connection=True;"; //Server=.;
     }
 
     /// <summary>
