@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MisTest
-build_property.ProjectDir = E:\Facultad\5-Profesorado\2023 - DIV C\2C\Proyectos\Parciales\SP_05122023_ALUMNO\MisTest\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Workspace\Programacion 2\Recuperatorio segundo parcial\SP_07122023_Gaston.Cvitanich.C\MisTest\
